@@ -1,0 +1,137 @@
+body{
+    font-family: 'Trebuchet MS';
+    background-image: url("background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name{
+    text-align: center;
+    color: rgba(175, 166, 37, 0.89)
+}
+
+.name h1 {
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+.name h2 {
+    font-size: 20px;
+    margin-top: -30px;  
+    font-weight: lighter;
+}
+
+.container-main-section{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    color: rgba(170, 163, 61, 0.89)
+}
+
+.container-left-block {
+    background-color: rgb(18, 19, 24, 0.8);
+    width: 22.5%;
+    border: 3px solid black; 
+    display: grid;
+}
+
+.container-left-block h1 {
+    margin-top:-20%;
+}
+.container-left-block img{
+    border: 3px solid rgba(182, 174, 63, 0.61);
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    /* bring your own prefixes */
+    transform: translate(-1%, -0%);
+}
+
+.container-left-block img:hover{
+    transform: scale(1.1);
+}
+.container-left-block h1 {
+    font-size: 17px;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+.container-abilities {
+    display: inline-grid;
+    background-color: rgb(18, 19, 24, 0.8);
+    width: 55%;
+    border: 3px solid black;
+    margin-left: 10px;
+}
+
+.all_abilities{
+    display: inline;
+    margin-top: 11%;
+    margin-bottom: 8%
+}
+
+.all_abilities img:hover{
+    transform: scale(1.2);
+}
+
+.all_abilities img {
+    border: 2px solid black;
+}
+
+.ability-desc{
+    margin-left: 2.5%;
+    background-color: rgba(240, 236, 223, 0.377);
+    width:95%;
+    margin-bottom:3%;
+}
+
+.single-ability {
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    margin-top:-3%;
+}
+
+.single-ability p { 
+    padding-top:5px;
+}
+
+.ability-desc img {
+    padding: 10px;
+}
+
+.container-right-block{
+    background-color: rgb(18, 19, 24, 0.8);
+    width: 22.5%;
+    border: 3px solid black;
+    margin-left: 10px;
+}
+
+
+#modal-color{
+    background-color: #3e4461;
+}
+
+#modal-text {
+    font-size: 20px;
+    text-align: left;
+    padding-bottom:8px;
+}
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+.modal-ku {
+    width: 1000px;
+    margin: auto;
+  } 
+
+.popover{
+    max-width: 40%; /* Max Width of the popover (depending on the container!) */
+}
