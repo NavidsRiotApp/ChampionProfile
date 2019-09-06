@@ -45,7 +45,9 @@ body{
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
+    margin-top: -40%;
+    margin-bottom: -20%;
     /* bring your own prefixes */
     transform: translate(-1%, -0%);
 }
