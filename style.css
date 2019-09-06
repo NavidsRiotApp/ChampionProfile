@@ -8,7 +8,7 @@ body{
 
 .name{
     text-align: center;
-    color: rgba(175, 166, 37, 0.89)
+    color: rgb(158, 149, 15);
 }
 
 .name h1 {
@@ -64,15 +64,15 @@ body{
 .container-abilities {
     display: inline-grid;
     background-color: rgb(18, 19, 24, 0.8);
-    width: 55%;
+    width: 50%;
     border: 3px solid black;
     margin-left: 10px;
 }
 
 .all_abilities{
     display: inline;
-    margin-top: 11%;
-    margin-bottom: 8%
+    margin-top: 8%;
+    margin-bottom: 1%
 }
 
 .all_abilities img:hover{
@@ -107,11 +107,15 @@ body{
 
 .container-right-block{
     background-color: rgb(18, 19, 24, 0.8);
-    width: 22.5%;
+    width: 25%;
     border: 3px solid black;
     margin-left: 10px;
 }
 
+.container-right-block h4 {
+    font-size: 16px;
+    text-align: left;
+}
 
 #modal-color{
     background-color: #3e4461;
@@ -136,4 +140,43 @@ body{
 
 .popover{
     max-width: 40%; /* Max Width of the popover (depending on the container!) */
+}
+
+.progress{
+    font-size: 16px;
+    max-width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+}
+
+#sub-titles {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#social-icons {
+    margin-left: -6%;
+    
+}
+#social-icons i{
+    font-size: 50px;
+    color:white;
+    margin-right:-4%;
+}
+#social-icons i:hover{
+    transform: scale(1.2)
+}
+
+#social-icons a{
+    text-decoration: none;
+    color:white;
+    font-size:15px;
+}
+
+#about_me{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 10px;
 }
