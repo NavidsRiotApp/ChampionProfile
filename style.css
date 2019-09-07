@@ -27,7 +27,8 @@ body{
     width: 100%;
     text-align: center;
     font-size: 34px;
-    color: rgba(170, 163, 61, 0.89)
+    color: rgba(170, 163, 61, 0.89);
+    
 }
 
 .container-left-block {
@@ -186,4 +187,10 @@ body{
     font-size: 15px;
     text-align: left;
     padding-left: 10px;
+}
+
+@media(min-width:1440px){
+    .e_ability{
+        margin-left:-12%;
+    }
 }
