@@ -189,7 +189,7 @@ body{
     padding-left: 10px;
 }
 
-@media(min-width:1440px){
+@media(min-width:1360px){
     .e_ability{
         margin-left:-12%;
     }
